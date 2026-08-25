@@ -36,3 +36,14 @@ for(let item in sales){
 }
 console.log("");
 console.log(`Income: $${sum}`);
+
+// get staff expenses from user input
+console.log("Staff expenses:");
+const staffExpenses = Number(input("What are the staff expenses?"));
+// get other expenses
+console.log("Other expenses:");
+const otherExpenses = Number(input("What are the otherExpenses?"));
+// update sum
+sum -= (staffExpenses + otherExpenses);
+console.log(`Net income: $${sum}`);
+
