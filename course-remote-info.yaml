@@ -1,0 +1,40 @@
+hyperskill_project:
+  id: 426
+  ide_files: https://hyperskill.org/api/projects/426/additional-files/additional_files.json
+  is_template_based: false
+  use_ide: true
+update_date: "Thu, 01 Jan 1970 00:00:00 UTC"
+stages:
+  - id: 2494
+    step: 41549
+    is_completed: true
+  - id: 2495
+    step: 41550
+    is_completed: false
+  - id: 2496
+    step: 41551
+    is_completed: false
+topics:
+  0:
+    - title: Introduction to JavaScript
+      theory_id: 8016
+    - title: Writing first program
+      theory_id: 8154
+    - title: Multi-line programs
+      theory_id: 8162
+  1:
+    - title: Comments
+      theory_id: 8170
+    - title: Declaring variables
+      theory_id: 8186
+    - title: Strings and numbers
+      theory_id: 8194
+    - title: Arithmetic operators
+      theory_id: 8372
+  2:
+    - title: Boolean and logical operators
+      theory_id: 8471
+    - title: Type conversion
+      theory_id: 8380
+    - title: Reading user's input
+      theory_id: 45180
